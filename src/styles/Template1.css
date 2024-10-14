@@ -1,0 +1,25 @@
+.template-one {
+    background-color: #f0f8ff; /* Light blue */
+    color: #333;
+    padding: 20px;
+    border: 2px solid #007acc; /* Darker blue */
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #007acc;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #007acc;
+  }
+  
+
+  @media print {
+    /* PDF specific styles here */
+    .resume {
+      font-size: 12px;
+    }
+  }
+  
